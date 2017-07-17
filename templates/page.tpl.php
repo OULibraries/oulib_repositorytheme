@@ -89,10 +89,6 @@
 </div>
 
 
-
-
-
-
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
@@ -114,41 +110,6 @@
 </div>
 
 
-<div class="carousel_inner hidden-xs">
-    <?php print render($page['header']); ?>
-  </div> <!-- /#Main Carousel -->
-
-<!-- Menu -->
-<div class="container-fluid">
-	<div class="row">
-		<div class="main-menu-container">
-			<nav class="navbar navbar-default navbar-inverse" role="navigation">
-				<div class="navbar-header">
-					 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button> 
-					
-				</div> <!-- /.navbar-header -->
-				
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					
-					<!-- Region for Main Menu -->
-					<ul class="nav navbar-nav main-menu">
-						<?php if (!empty($page['menu'])): ?>				
-							<?php print render($page['menu']); ?>
-						<?php endif; ?>	
-					</ul>
-					
-
-				</div> <!-- /.collapse .navbar-collapse -->
-				
-			</nav>
-		</div> <!-- /.col-md-12 -->
-	</div> <!-- /.row -->
-</div> <!-- /.container-fluid -->
-
- 
 
 <div id="holder">
 <div class="container whitebg">
@@ -159,9 +120,18 @@
 
 <div id="body">
 
-<div class="main-container">
+<div class="container-fluid">
+
+
+<div class="main-container whitebg">
 
   <div class="row">
+
+      <div class="static_banner">
+          <?php if (!empty($page['header'])): ?>
+              <?php print render($page['header']); ?>
+          <?php endif; ?>
+      </div>
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
@@ -203,44 +173,21 @@
   
 </div>
 </div>
+</div>
+</div>
+</div>
 
 <!-- end body tag -->
 </div>
+
+
+
  <!-- Library Footer Detail-->
 <div class="libfooter_detail">
 		<?php if (!empty($page['libfooter_detail'])): ?>				
 			<?php print render($page['libfooter_detail']); ?>
 		<?php endif; ?>
 	</div>
-
-<!-- Library Footer -->
-<div class="libfooter">
-
-
-	<div class="container-fluid">
-		<div class="row">
-			
-			<?php if (!empty($page['libfooter_first'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_first']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			
-			<?php if (!empty($page['libfooter_second'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_second']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			  
-			<?php if (!empty($page['libfooter_third'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_third']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-		   
-		</div>
-	</div>
-</div>
 
 
 <!-- ou global nav footer -->
@@ -272,6 +219,7 @@
 			    <li><a href="https://libraries.ou.edu/content/repository-services-contact-form" title="Contact">Contact</a></li>
                             <li><a href="aboutsite" title="About This Site">About This Site</a></li>
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
+                            <li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries" target="_blank">Job Opportunities</a></li>
                         </ul>
 
                     </span>
@@ -279,8 +227,6 @@
                     <div style="width: 50%; float: right;">
 
                         <ul>
-
-                            
 
                             <li><a href="http://www.ou.edu/content/publicaffairs/WebPolicies/copyright.html" title="Copyright" target="_blank">Copyright</a></li>
 
@@ -304,13 +250,13 @@
 
                         <ul>
 
-                            <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/oulibraries" class="facebook" title="facebook" target="_blank"></a></li>
 
-                            <li><a href="https://twitter.com/OULibrarian" class="twitter" title="twitter" target="_blank"></a></li>
+                            <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
                             <li><a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg" class="youtube" title="youtube" target="_blank"></a></li>
 
-                            <li><a href="https://www.pinterest.com/ouhoscurator/ou-hos-collections/" class="pinterest" title="pinterest" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram" target="_blank"></a></li>
 
                         </ul>
 
