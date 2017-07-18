@@ -216,7 +216,6 @@
                     <span style="width: 50%; float: left;">
 
                         <ul>
-			    <li><a href="https://libraries.ou.edu/content/repository-services-contact-form" title="Contact">Contact</a></li>
                             <li><a href="aboutsite" title="About This Site">About This Site</a></li>
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
                             <li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries" target="_blank">Job Opportunities</a></li>
