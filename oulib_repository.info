@@ -8,6 +8,7 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
+regions[carousel]		= 'Homepage Carousel'
 regions[header]         = 'Static Banner'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
@@ -27,6 +28,7 @@ regions[discover]		= 'Discover'
 regions[login]			= 'Login'
 regions[askus]			= 'Ask Us'
 regions[menu]			= 'Menu'
+regions[site-name]		= 'Site Name'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
