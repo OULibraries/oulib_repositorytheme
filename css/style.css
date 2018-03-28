@@ -1,9 +1,9 @@
 /*
 Stylesheet for OU Libraries Repository //
-
 Table of Contents
 - - - - - - - - -
 General Styles
+Search Form
 Paragraphs Styles
 Global Footer
 Social Media Icons
@@ -120,6 +120,17 @@ img{
 
 .question-glyph{
 	color: #298ac4;
+}
+
+
+
+
+/**
+ * Search Form
+ */
+
+.form-item.form-item-islandora-simple-search-query.form-type-textfield.form-group {
+	margin: 10px;
 }
 
 
