@@ -9,11 +9,22 @@
  * @see template_preprocess_islandora_solr()
  */
 
+// If we might have a search, check and save the query needle
+$args = explode('/', current_path() );
+$needle="";
+if ( count($args) >2 ) {
+ if($args[1] === "search") { $needle = $args[2]; }
+}
+
 ?>
 <?php if (empty($results)): ?>
  <h2>No matches found</h2>
- <p class="no-results">Sorry, but your search returned no results.</p>
- <p></p>
+ <p class="no-results">Sorry, but your search didn't match any items on this site.</p>
+ 
+ <h3>Want to Keep Looking?</h4>
+ <p>You may find more results, including items that haven't been digitized, by <a href="https://ou-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,<?php print $needle ?>&facet=local6,include,special_collections&search_scope=default_scope&vid=OUNEW&sortby=rank">searching special collections</a> in the OU Libraries catalog. </p>
+ <p> </p>
+
 <?php else: ?>
   <div class="islandora islandora-solr-search-results">
     <?php $row_result = 0; ?>
