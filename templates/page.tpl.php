@@ -232,94 +232,122 @@
 
 
 <!-- ou global nav footer -->
-  <div class="footer">
+<div class="footer">
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-            <div class="row" style="padding-top: 20px;">
+        <div class="row" style="padding-top: 20px;">
 
-                <div class="col-md-3" style="padding-bottom: 30px;">
+            <div class="col-md-3" style="padding-bottom: 30px;">
 
-                    <img src="<?php print $GLOBALS['base_url']."/".drupal_get_path('theme',$GLOBALS['theme']) ?>/img/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
+                <img src="/sites/all/themes/oulib_repository/img/footerlogo.png"
+                     alt="footerLogo"
+                     style="float: left; padding-right: 1em;"/>
 
-                    <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
+                <a href="http://libraries.ou.edu" target="_blank">University
+                    Libraries</a><br/>
 
-                    401 W. Brooks St<br />
+                401 W. Brooks St<br/>
 
-                    Norman, OK 73019<br />
+                Norman, OK 73019<br/>
 
-                    (405) 325-4142
+                (405) 325-3341
 
-                </div>
+            </div>
 
-                <div class="col-md-4">
+            <div class="col-md-4">
 
                     <span style="width: 50%; float: left;">
 
                         <ul>
-                            <li><a href="aboutsite" title="About This Site">About This Site</a></li>
-                            <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
-                            <li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries" target="_blank">Job Opportunities</a></li>
+
+                            <li><a href="/contact"
+                                   alt="Contact Us link">Contact Us</a></li>
+
+                            <li><a href="/aboutsite" alt="About link">About This Site</a></li>
+
+                            <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html"
+                                   alt="Accessibility link" target="_blank">Accessibility</a></li>
+
+							<li><a href="https://libraries.ou.edu/jobs"
+                                   alt="Jobs link" target="_blank">Job Opportunities</a></li>
+
                         </ul>
 
                     </span>
 
-                    <div style="width: 50%; float: right;">
+                <div style="width: 50%; float: right;">
 
-                        <ul>
+                    <ul>
 
-                            <li><a href="http://www.ou.edu/content/publicaffairs/WebPolicies/copyright.html" title="Copyright" target="_blank">Copyright</a></li>
 
-                            <li><a href="http://www.ou.edu/content/web/landing/policy.html" title="Policies" target="_blank">Policies</a></li>
+                        <li>
+                            <a href="http://www.ou.edu/content/publicaffairs/WebPolicies/copyright.html"
+                               alt="Copyright link"
+                               target="_blank">Copyright</a></li>
 
-                            <!-- <li><a href="http://ouhsc.edu/hipaa/" title="HIPAA">HIPAA</a></li> -->
+                        <li>
+                            <a href="http://www.ou.edu/content/web/landing/policy.html"
+                               alt="Policies link" target="_blank">Policies</a>
+                        </li>
 
-                            <li><a href="http://www.ou.edu/content/web/landing/legalnotices.html" title="Legal Notice" target="_blank">Legal Notice</a></li>
+                        <li>
+                            <a href="http://www.ou.edu/content/web/landing/legalnotices.html"
+                               alt="Legal Notice link" target="_blank">Legal
+                                Notice</a></li>
 
-                        </ul>
-
-                    </div>
-
-                    <div style="clear: both; padding-bottom: 30px;"></div>
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <div class="social">
-
-                        <ul>
-
-                            <li><a href="https://www.facebook.com/oulibraries" class="facebook" title="facebook" target="_blank"></a></li>
-
-                            <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
-
-                            <li><a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg" class="youtube" title="youtube" target="_blank"></a></li>
-
-                            <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram" target="_blank"></a></li>
-
-                        </ul>
-
-                    </div>
+                    </ul>
 
                 </div>
-				
-				<div class="col-md-2">
 
-				</div>
+                <div style="clear: both; padding-bottom: 30px;"></div>
 
             </div>
 
-            
+            <div class="col-md-3">
+
+                <div class="social">
+
+                    <ul>
+
+                        <li><a href="https://www.facebook.com/oulibraries"
+                               class="facebook" title="facebook"
+                               target="_blank"><img src="/sites/all/themes/oulib_repository/img/facebook.png"
+                                                    alt="Facebook Icon"></a></li>
+
+                        <li><a href="https://twitter.com/OU_Libraries"
+                               class="twitter" title="twitter"
+                               target="_blank"><img src="/sites/all/themes/oulib_repository/img/twitter.png"
+                                                    alt="Twitter Icon"></a></li>
+
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg"
+                               class="youtube" title="youtube"
+                               target="_blank"><img src="/sites/all/themes/oulib_repository/img/youtube.png"
+                                                    alt="YouTube Icon"></a></li>
+
+                        <li><a href="https://www.instagram.com/oulibraries/"
+                               class="instagram" title="instagram"
+                               target="_blank"><img src="/sites/all/themes/oulib_repository/img/instagram.png"
+                                                    alt="Instagram Icon"></a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
 
         </div>
 
 
+    </div>
 
-</div>
 
-<!-- footer -->
-</div>
+    </footer>
+
+    <!-- footer -->
+
 <!-- Place this script as near to the end of your BODY as possible. -->
 <script 
  type="text/javascript"> 
