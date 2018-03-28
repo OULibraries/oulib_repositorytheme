@@ -19,11 +19,11 @@
 
     float:right;
 
-	list-style:none;
+    list-style:none;
 
-	padding:0;
+    padding:0;
 
-	margin:0;
+    margin:0;
 
     padding-right: 40px;
 
@@ -49,7 +49,7 @@
 
 .global_header ul li a.social {
 
-    display:block; 
+    display:block;
 
     height:30px;
 
@@ -64,7 +64,7 @@
 
     background-repeat:no-repeat;
 
-	line-height:0;
+    line-height:0;
 
 }
 
@@ -119,11 +119,11 @@ a.tip span { display: none; }
 /* the span will display just on :hover state */
 
 
-a.tip:hover span { 
+a.tip:hover span {
     position:absolute;
     z-index:25;
-    top:135%; 
-    left:-3.75em;  
+    top:135%;
+    left:-3.75em;
     width:10em;
     display:block;
     margin:0;
@@ -141,7 +141,7 @@ a.tip:hover span {
 
 a.tip:hover span::before {
     content:"";
-    width:100%; 
+    width:100%;
     display:block;
     background-image:url(../img/ou-global_header-tiparrow.png);
     background-repeat:no-repeat;
@@ -160,11 +160,11 @@ a.tip:hover span::before {
     color: #999;
     font-size: 1em;
     line-height: 1.2em;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	border-top: 7px solid #1f1f1f;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 7px solid #1f1f1f;
 }
 
 
@@ -184,8 +184,7 @@ a.tip:hover span::before {
 }
 
 .footer img{
-	float: left;
-	padding-right: 1em;
+    float: left;
 }
 
 /* Social Icons */
@@ -202,9 +201,9 @@ a.tip:hover span::before {
 
 .social ul li a.instagram
 
- {
+{
 
-    display:block; 
+    display:block;
     height:45px;
     width:45px;
     float:left;
@@ -215,10 +214,10 @@ a.tip:hover span::before {
 
 .social ul li a {
 
-    background-image: url(../img/social-icons.png);
+    /*background-image: url(../img/social-icons.png);*/
     background-repeat:no-repeat;
-	line-height:0;
-	margin-right:5px;
+    line-height:0;
+    margin-right:5px;
 
 }
 
@@ -262,11 +261,11 @@ a.tip:hover span::before {
 
 @media print,
 
-       (-o-min-device-pixel-ratio: 5/4),
+(-o-min-device-pixel-ratio: 5/4),
 
-       (-webkit-min-device-pixel-ratio: 1.25),
+(-webkit-min-device-pixel-ratio: 1.25),
 
-       (min-resolution: 120dpi) {
+(min-resolution: 120dpi) {
 
 
 
@@ -500,7 +499,7 @@ a.tip:hover span::before {
 
     img {
 
-    /*    max-width: 100% !important; */
+        /*    max-width: 100% !important; */
 
     }
 
@@ -537,5 +536,3 @@ a.tip:hover span::before {
     }
 
 }
-
-
